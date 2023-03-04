@@ -54,6 +54,8 @@ function Elenco(){
                 </div>
             </section>
 
+            <div>hover over me</div>
+
             <Footer />
         </div>
     )
