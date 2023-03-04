@@ -6,6 +6,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #000;
+    border-bottom: 1px solid red;
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
 ul {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 li {
@@ -31,5 +32,18 @@ li:hover {
     color: red;
 }
 
+#logo {
+    width: 210px;
+    height: auto;
+    justify-content: center;
+}
 
+/* MEDIAQUERY */
+@media(max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+}
 

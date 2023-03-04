@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+span {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bold;
+}
+
+
+.elenco-cards {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.elenco-nome-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid red;
+    border-radius: 15px;
+}
+
+.card-e {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.img-elenco {
+    width: 160px;
+    height: 160px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.description-elenco {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: 1px solid #f22e2e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 177px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.nome-elenco {
+    display: flex;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 5px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-shadow: 0 0 30px red, 0 0 10px white;
+}
