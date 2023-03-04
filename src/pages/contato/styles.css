@@ -24,7 +24,7 @@
     align-items: center;
     border-radius: 20px;
     text-shadow: 0 0 20px #F29A2E, 0 0 20px black;
-    background-image: linear-gradient(to bottom, #ff0000, #ff0064, #f000af, #ac58e7, #007cff);
+    background-image: linear-gradient(to bottom, #00a8ff, #0090ff, #0074ff, #0051ff, #4000ff);
 }
 
 label {
