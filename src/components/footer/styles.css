@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
 * {
     padding: 0;
 }
@@ -16,6 +14,7 @@ footer {
 .spanfooter {
     color: #fff;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    text-shadow: 0 0 5px red, 0 0 10px black;
 }
 
 .footer-navigation {

@@ -1,7 +1,9 @@
 import React from "react";
 import './styles.css';
 import Header from "../../components/header/header";
-import img_elenco from '../../assets/teste.png'
+import img_luffy from '../../assets/luffy.jpg'
+import img_zoro from '../../assets/zoro.jpg'
+import img_nami from '../../assets/nami.png'
 import Footer from "../../components/footer";
 
 function Elenco(){
@@ -11,43 +13,43 @@ function Elenco(){
             <section className="elenco-cards">
                 <div className="card-e">
                     <div className="elenco-nome-img">
-                        <span className="nome-elenco">Son Goku</span>
-                        <img className="img-elenco" alt="" src={img_elenco} />
+                        <span className="nome-elenco">Monkey D. Luffy</span>
+                        <img className="img-elenco" alt="" src={img_luffy} />
                     </div>
                     <p className="description-elenco">
-                        Goku (孫 悟空, Son Gokū, ou Son Goku), nascido Kakarotto (カカロット, Kakarotto)
-                        é o protagonista das franquias Dragon Ball. Ele é neto adotivo de Vovô Gohan, filho
-                        de Bardock e Gine, o irmão mais novo de Raditz, o marido de Chichi, pai de Gohan e Goten,
-                        avô de Pan e mais tarde tataravô de Goku Jr. Sua primeira aparição ocorreu em 1984, no primeiro
-                        capítulo do mangá Dragon Ball, publicado na revista Weekly Shōnen Jump. Goku é inspirado em Sun Wukong,
-                        personagem do romance Jornada ao Oeste. Porém, Toriyama mudou algumas de suas características para ser mais original.
-                        Goku é apresentado como um menino estranho com rabo de macaco e força sobre-humana.
+                    Luffy é o capitão dos Piratas do Chapéu de Palha.
+                    Quando criança, ele comeu uma Gomu Gomu no Mi, uma
+                    fruta que lhe deu o poder do homem-borracha em troca
+                    de sua habilidade de nadar. Filho de Monkey D. Dragon,
+                    o jovem sonha em se tornar o Rei dos Piratas, título que
+                    ninguém ocupa desde a execução de Gol D.
                     </p>
                 </div>
 
                 <div className="card-e">
                     <div className="elenco-nome-img">
-                        <span className="nome-elenco">Vegeta</span>
-                        <img className="img-elenco" alt="" src={img_elenco} />
+                        <span className="nome-elenco">Roronoa Zoro</span>
+                        <img className="img-elenco" alt="" src={img_zoro} />
                     </div>
                     <p className="description-elenco">
-                        Vegeta IV, ou Príncipe Vegeta é o príncipe da raça Saiyajin e arqui-rival de Goku. Ele é o filho mais velho de Vegeta III,
-                        o irmão mais velho de Tarble, o marido de Bulma, o pai de Trunks e Bra, e tataravô de Vegeta Jr. Junto com Goku, Gohan, e
-                        Piccolo, ele é facilmente um dos personagens mais prominentes da série, recebendo mais desenvolvimento após ser introduzido
-                        do que vários personagens.
+                    Roronoa Zoro, também conhecido como O Caçador de Piratas,
+                    é um pirata e ex-Caçador de Recompensas, e também um espadachim
+                    que usa 3 espadas. Ele foi o primeiro membro a se juntar aos Piratas
+                    do Chapéu de Palha, e até o momento, é considerado a maior ameaça e
+                    membro mais perigoso depois de Luffy e o imediato do bando.
                     </p>
                 </div>
 
                 <div className="card-e">
                     <div className="elenco-nome-img">
-                        <span className="nome-elenco">Bulma</span>
-                        <img className="img-elenco" alt="" src={img_elenco} />
+                        <span className="nome-elenco">Nami</span>
+                        <img className="img-elenco" alt="" src={img_nami} />
                     </div>
                     <p className="description-elenco">
-                        Bulma desempenha o papel de apoio ao protagonista Goku, no mangá Dragon Ball e nos animes Dragon Ball, Z, GT, e Super, filha do
-                        Dr. Brief e Sra. Brief, ex-namorada de Yamcha, mais tarde se torna esposa de Vegeta e mãe de seus dois filhos Trunks e Bra. Bulma
-                        é a personagem feminina mais importante da série, sendo responsável por duas invenções relevantes para o anime como o radar do dragão
-                        e a Máquina do Tempo, e tendo participação contínua do primeiro episódio até o último
+                    Nami é uma órfã de guerra de uma aldeia desconhecida, encontrada
+                    por Bell-mère, uma mulher da Marinha, num campo de batalha hostil
+                    quando ainda era um bebê. A marinheira adotou ela e Nojiko, outro órfã.
+                    As três se tornaram tão próximos quanto uma família real.
                     </p>
                 </div>
             </section>

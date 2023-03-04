@@ -45,5 +45,9 @@ li:hover {
         display: none;
     }
 
+    li {
+        text-shadow: 0 0 5px red, 0 0 10px black;
+    }
+
 }
 

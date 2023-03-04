@@ -1,0 +1,111 @@
+.body-contact {
+    background-size: cover;
+    position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url('https://rare-gallery.com/uploads/posts/249164-marco-one-piece-3840x2160.jpg');
+}
+
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.form-contato {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-shadow: 0 0 20px #F29A2E, 0 0 20px black;
+    background-image: linear-gradient(to bottom, #ff0000, #ff0064, #f000af, #ac58e7, #007cff);
+}
+
+label {
+    margin: 5px 0;
+    background-color: transparent;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+input[type="text"],
+textarea {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    background-color: #333;
+    color: #fff;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 60px;
+    background-color: #ef2024;
+    color: #fff;
+    padding: 5px 5px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    background-color: #fff;
+    color: #ef2024;
+}
+
+#message {
+    resize: vertical;
+    min-height: 50px;
+    max-height: 300px;
+    height: 190px;
+}
+
+.h1contato {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 20px #F29A2E, 0 0 20px black;
+}
+
+.h3contato {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 20px #F29A2E, 0 0 20px black;
+    color: white;
+}
+
+/* MEDIAQUERY */
+@media(max-width: 768px) {
+
+    .form-contato {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        text-shadow: 0 0 20px #F29A2E, 0 0 20px black;
+    }
+
+}
